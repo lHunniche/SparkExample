@@ -1,3 +1,4 @@
+import org.apache.spark.SparkConf;
 import org.apache.spark.SparkContext;
 import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.JavaSparkContext;
@@ -12,7 +13,8 @@ public class PiCalculator
 
     public void calculatePi(int NUM_SAMPLES)
     {
-        sc = new JavaSparkContext();
+        SparkConf conf = new SparkConf().setMaster("local[*]").setAppName("SparkExample");
+        sc = new JavaSparkContext(conf);
         List<Integer> l = new ArrayList<>(NUM_SAMPLES);
         for (int i = 0; i < NUM_SAMPLES; i++) {
             l.add(i);

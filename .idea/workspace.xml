@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="74e56c2f-1464-480a-8c07-dafd0f2a0106" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PiCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PiCalculator.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -147,6 +148,7 @@
       <workItem from="1572273512838" duration="2972000" />
       <workItem from="1572342038174" duration="2724000" />
       <workItem from="1572419723254" duration="1212000" />
+      <workItem from="1572877371863" duration="1403000" />
     </task>
     <servers />
   </component>

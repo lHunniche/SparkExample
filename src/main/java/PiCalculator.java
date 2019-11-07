@@ -47,7 +47,7 @@ public class PiCalculator
     {
         PiCalculator pi = new PiCalculator();
         //pi.doDataBaseStuff();
-        //pi.calculatePi(10);
-        pi.calculatePi(Integer.parseInt(args[0]));
+        pi.calculatePi(10);
+        //pi.calculatePi(Integer.parseInt(args[0]));
     }
 }
